@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.15.5)
+    mini_magick (4.12.0)
+    nsfw-rb (0.1.0)
+      mini_magick (~> 4.11)
+      onnxruntime (~> 0.6)
+    onnxruntime (0.7.6-x86_64-linux)
+      ffi
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  nsfw-rb
+
+BUNDLED WITH
+   2.4.13
